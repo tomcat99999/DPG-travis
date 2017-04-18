@@ -6,8 +6,10 @@ python:
   
 install:
   - pip install coveralls
+  
 script:
   - coverage run hello.py
+  
 after_succes:
   COVERALLS_REPO_TOKEN=ZudwQ338bf2qgiov9ygQP3cuZvCxh1p4j coveralls
   
